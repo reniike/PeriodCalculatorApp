@@ -1,0 +1,102 @@
+.mainContainer{
+    background-color: rgb(58, 2, 32);
+    width: 99vw;
+    height: 99vh;
+    text-align: left;
+}
+
+.floAssist{
+    text-align: center;
+    font-family: 'Playfair Display', cursive;
+    font-weight: 100;
+    color: rgb(255,0,127);
+    margin-bottom: 10px;
+}
+
+.periodDate{
+    font-family: 'Playfair Display', cursive;
+    color: rgb(255,0,127);
+    margin-bottom: 15px;
+}
+
+
+.periodCycle{
+    font-family: 'Playfair Display', cursive;
+    color: rgb(255,0,127);
+    margin-bottom: 15px;
+}
+
+.cycleLength{
+    font-family: 'Playfair Display', cursive;
+    color: rgb(255,0,127);  
+    margin-bottom: 15px; 
+}
+
+.secondContainer{
+    background-color:bisque;
+    height: 50vh;
+}
+
+.nextPeriod{
+    background-color: rgb(58, 2, 32);
+    color: bisque;
+    font-family: 'Playfair Display', cursive;
+}
+
+.track{
+    background-color: bisque;
+    color: rgb(255,0,127);
+    border-radius: 10px;
+    border-color: darkmagenta;
+    border: solid;
+    margin-top: 20px;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    
+}
+
+.track:hover{
+    box-shadow: inset 100px 0 0 0 rgb(255,0,127);
+    color: white;
+}
+
+.track:active{
+    background-color: black;
+    color: rgb(209, 25, 25);
+}
+
+.trackDiv{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#date{
+    color: rgb(255,0,127);
+    border-radius: 15px;
+    border-color: darkmagenta;
+    border: solid;
+    background-color: bisque
+}
+
+#periodCycle{
+    color: rgb(255,0,127);
+    border-radius: 15px;
+    border-color: darkmagenta;
+    border: solid;
+    background-color: bisque
+}
+
+#cycleLength{
+    color: rgb(255,0,127);
+    border-radius: 15px;
+    border-color: darkmagenta;
+    border: solid;
+    background-color: bisque
+}
+
+
+
