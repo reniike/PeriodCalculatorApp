@@ -1,5 +1,4 @@
 import './App.css';
-import ReactDOM from 'react-dom';
 import Cycle from './pages/dashboard/components/Cycle';
 
 function App() {

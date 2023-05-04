@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import '../styles/Cycle.css'
+import period from '../../../assests/images/period.png'
+import menstruation from '../../../assests/images/menstruation.png'
+
  
 function Cycle(){
 
@@ -34,9 +37,10 @@ function Cycle(){
     };
 
     return(
+        <>
         <div className="mainContainer">
             <div className="secondContainer">
-                <h1 className="floAssist">Period Pal.</h1>
+                <h1 className="floAssist">Period Tracker.</h1>
                 <form className="periodDate">
                     <label form="periodDate">Enter the date of the first day of your last menstrual period: </label>
                     <input type="date" id="date" name="date" value={lastPeriodDate} onChange={handleLastPeriodDateChange} />
@@ -46,11 +50,13 @@ function Cycle(){
                     <label form="days">Enter length of period flow(days): </label>
                     <input type="number" id="periodCycle" value={periodLength} onChange={handlePeriodLengthChange} />
                 </form>
-
+                {/* <div className="periodAnimation"><img src= {period} alt="animation" ></img></div> */}
                 <form className="cycleLength">
                     <label form="days">Enter the length of cycle(days): </label>
                     <input type="number" id="cycleLength"value={cycleLength} onChange={handleCycleLengthChange}/>
                 </form>
+
+                <div className="periodAnimation"><img src= {period} alt="animation" ></img></div>
             </div>
 
             <div className="trackDiv">
@@ -61,6 +67,7 @@ function Cycle(){
                 <p onClick={generateMenstrualDate}>Your next period date is: {nextPeriodDate}</p>
             </div>
         </div>
+        </>
     );
 }
 
